@@ -1,16 +1,35 @@
 {
-  "place": [
-    {"id": 1, "name": "北海道"},
-    {"id": 2, "name": "青森"}
-  ],
-
-  "user.type": [
-    {"value": 0, "text": "user"},
-    {"value": 1, "text": "cast"}
-  ],
-
-  "level": [
-    {"id": 1, "name": "ゴールド"},
-    {"id": 2, "name": "シルバー"}
+  "user": [
+    {"id": 1,
+      "name": "谷町 太郎",
+      "email": "admin@email.com",
+      "test1": {
+        "test2": {
+          "test3": "テスト3",
+          "test4": "テスト4"
+        }
+      }
+    },
+    {"id": 2,
+      "name": "谷町 太郎2",
+      "email": "admin2@email.com",
+      "test1": {
+        "test2": {
+          "test3": "テスト3",
+          "test4": "テスト4"
+        }
+      }
+    },
+    {"id": 3,
+      "name": "谷町 太郎3",
+      "email": "admin3@email.com",
+      "test1": {
+        "test2": {
+          "test3": "テスト3",
+          "test4": "テスト4"
+        }
+      }
+    }
   ]
+
 }

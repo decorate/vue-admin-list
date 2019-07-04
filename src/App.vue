@@ -1,15 +1,42 @@
 <template>
   <div id="app">
-      <example></example>
+      <AdminList
+          :columns="columns"
+          :model="model"
+          :options="options"
+      ></AdminList>
   </div>
 </template>
 
 <script>
-    import Example from './components/Example'
+    import AdminList from './components/AdminList'
+    import Test from './models/Test'
 
     export default {
+        data() {
+            return {
+                columns: {
+                    id: "id",
+                    name: "名前",
+                    email: "メールアドレス",
+                    test1: {
+                        test2: {
+                            test4: "テスト４",
+                            test5: "テスト５",
+                        }
+                    }
+                },
+                model: Test,
+                options: {
+                    create: true,
+                    remove: true,
+                    edit: true
+                }
+            }
+        },
+
         components: {
-            Example
+            AdminList
         }
     }
 

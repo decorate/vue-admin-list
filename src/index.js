@@ -1,8 +1,8 @@
 import '@babel/polyfill'
 
-import EX from './components/Example'
+import AdminList from './components/AdminList'
 
 export {
-    EX,
-    EX as default
+    AdminList,
+    AdminList as default
 }
